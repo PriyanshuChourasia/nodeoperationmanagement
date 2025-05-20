@@ -2,6 +2,8 @@ import { env } from "../config/env.config";
 import { Express, Request, Response } from "express";
 
 
+/** Initializing server */
+
 export function intializeServer(app:Express){
 
     app.get("/",(req:Request,res:Response) =>{
