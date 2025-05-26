@@ -1,4 +1,4 @@
-import { createTasks, getTaskById, getTasks, updateStatus } from "@/controllers/taskController";
+import { createTasks, getTaskById, getTasks, updateStatus } from "../controllers/taskController";
 import { Router } from "express";
 
 const router = Router();

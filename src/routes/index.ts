@@ -1,6 +1,6 @@
 import { Express } from "express";
-import projectRoutes from "@/routes/projectRoutes";
-import taskRoutes from "@/routes/taskRoutes";
+import projectRoutes from './projectRoutes';
+import taskRoutes from './taskRoutes';
 
 
 export function appRoutes(app:Express){
